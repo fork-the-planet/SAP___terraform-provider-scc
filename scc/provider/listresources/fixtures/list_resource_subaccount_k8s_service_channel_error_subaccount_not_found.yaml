@@ -19,8 +19,6 @@ interactions:
                 - '*/*'
             Authorization:
                 - redacted
-            Content-Type:
-                - application/json
         url: https://redacted.instance.url/api/v1/connector/version
         method: GET
       response:
@@ -29,20 +27,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Wed, 28 Jan 2026 11:30:32 GMT
+                - Tue, 07 Jul 2026 05:51:47 GMT
             Server:
-                - nginx/1.27.4
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -50,10 +48,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - d2050d20-f86b-4fae-5911-0fb5ca74e4de
+                - 2cace19b-279c-4c23-757a-b750b91a26b4
         status: 200 OK
         code: 200
-        duration: 837.895001ms
+        duration: 947.279834ms
     - id: 1
       request:
         proto: HTTP/1.1
@@ -72,8 +70,6 @@ interactions:
                 - '*/*'
             Authorization:
                 - redacted
-            Content-Type:
-                - application/json
         url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/224492be-5f0f-4bb0-8f59-c982107bc878/channels/K8S
         method: GET
       response:
@@ -93,9 +89,9 @@ interactions:
             Content-Type:
                 - application/json
             Date:
-                - Wed, 28 Jan 2026 11:30:32 GMT
+                - Tue, 07 Jul 2026 05:51:48 GMT
             Server:
-                - nginx/1.27.4
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -103,7 +99,7 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - b6ada115-7233-4b23-45a0-1fbf34f250ff
+                - 947d4317-7951-4c7b-7126-d614f8c862ed
         status: 404 Not Found
         code: 404
-        duration: 355.089083ms
+        duration: 313.445125ms

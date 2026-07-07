@@ -27,20 +27,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:09 GMT
+                - Tue, 07 Jul 2026 05:40:15 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -48,10 +48,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 5bd3f8ea-e170-4758-5ddb-402865120a0b
+                - ba58d490-7329-4f27-6182-c1b5010dbbda
         status: 200 OK
         code: 200
-        duration: 786.396958ms
+        duration: 781.137584ms
     - id: 1
       request:
         proto: HTTP/1.1
@@ -78,20 +78,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:09 GMT
+                - Tue, 07 Jul 2026 05:40:15 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -99,10 +99,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 7c016d7d-6564-4f5f-507d-1f0fc6328d29
+                - 03746903-41ec-42af-48c9-eaf6bc7c12ad
         status: 200 OK
         code: 200
-        duration: 243.456042ms
+        duration: 271.562667ms
     - id: 2
       request:
         proto: HTTP/1.1
@@ -140,11 +140,11 @@ interactions:
             Content-Length:
                 - "0"
             Date:
-                - Tue, 16 Jun 2026 06:38:10 GMT
+                - Tue, 07 Jul 2026 05:40:16 GMT
             Location:
                 - redacted
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -152,10 +152,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 2544476b-9300-4fbf-515b-de179a2f0876
+                - 7e1ee72d-732f-4f9d-73a0-e49a02be1a42
         status: 201 Created
         code: 201
-        duration: 367.229333ms
+        duration: 303.85925ms
     - id: 3
       request:
         proto: HTTP/1.1
@@ -182,20 +182,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 594
+        content_length: 614
         uncompressed: false
-        body: '[{"abapCloudTenantHost":"REDACTED_ABAP_CLOUD_TENANT_HOST","instanceNumber":20,"id":37,"type":"ABAPCloud","port":3320,"enabled":false,"connections":1,"comment":"Created","_links":{"self":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"}}}]'
+        body: '[{"abapCloudTenantHost":"REDACTED_ABAP_CLOUD_TENANT_HOST","instanceNumber":20,"id":20,"type":"ABAPCloud","port":3320,"enabled":false,"connections":1,"comment":"Created","_links":{"self":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"}}}]'
         headers:
             Cache-Control:
                 - no-store
             Content-Length:
-                - "594"
+                - "614"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:10 GMT
+                - Tue, 07 Jul 2026 05:40:16 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -203,10 +203,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 20359f3c-f76a-4667-6fdc-ea2bf61ba0c7
+                - df9245df-24cc-4960-786d-ac94ea26a383
         status: 200 OK
         code: 200
-        duration: 246.330459ms
+        duration: 255.261542ms
     - id: 4
       request:
         proto: HTTP/1.1
@@ -227,7 +227,7 @@ interactions:
                 - redacted
             Content-Type:
                 - application/json
-        url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/9f7390c8-f201-4b2d-b751-04c0a63c2671/channels/ABAPCloud/37/state
+        url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/9f7390c8-f201-4b2d-b751-04c0a63c2671/channels/ABAPCloud/20/state
         method: PUT
       response:
         proto: HTTP/1.1
@@ -242,9 +242,9 @@ interactions:
             Cache-Control:
                 - no-store
             Date:
-                - Tue, 16 Jun 2026 06:38:10 GMT
+                - Tue, 07 Jul 2026 05:40:16 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -252,10 +252,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - d368dd25-1b46-4fe7-5874-946153c51a16
+                - 56132edc-6875-4a1e-643a-283e8e3fe1f1
         status: 204 No Content
         code: 204
-        duration: 248.045667ms
+        duration: 254.190083ms
     - id: 5
       request:
         proto: HTTP/1.1
@@ -274,7 +274,7 @@ interactions:
                 - '*/*'
             Authorization:
                 - redacted
-        url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/9f7390c8-f201-4b2d-b751-04c0a63c2671/channels/ABAPCloud/37
+        url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/9f7390c8-f201-4b2d-b751-04c0a63c2671/channels/ABAPCloud/20
         method: GET
       response:
         proto: HTTP/1.1
@@ -282,20 +282,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 592
+        content_length: 612
         uncompressed: false
-        body: '{"abapCloudTenantHost":"REDACTED_ABAP_CLOUD_TENANT_HOST","instanceNumber":20,"id":37,"type":"ABAPCloud","port":3320,"enabled":false,"connections":1,"comment":"Created","_links":{"self":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"}}}'
+        body: '{"abapCloudTenantHost":"REDACTED_ABAP_CLOUD_TENANT_HOST","instanceNumber":20,"id":20,"type":"ABAPCloud","port":3320,"enabled":false,"connections":1,"comment":"Created","_links":{"self":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"}}}'
         headers:
             Cache-Control:
                 - no-store
             Content-Length:
-                - "592"
+                - "612"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:10 GMT
+                - Tue, 07 Jul 2026 05:40:16 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -303,10 +303,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 9f3e8d9c-1ba5-411d-4431-a4b487c350ca
+                - 8d5d193b-0669-47f8-472d-92eec2551db3
         status: 200 OK
         code: 200
-        duration: 244.866083ms
+        duration: 259.179251ms
     - id: 6
       request:
         proto: HTTP/1.1
@@ -333,20 +333,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:11 GMT
+                - Tue, 07 Jul 2026 05:40:17 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -354,10 +354,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 5766fcdc-8cb9-4fe3-574f-61a4a790407d
+                - 89cdd0b9-44c2-4a0e-470e-a0b0de5ff40a
         status: 200 OK
         code: 200
-        duration: 262.927333ms
+        duration: 255.799792ms
     - id: 7
       request:
         proto: HTTP/1.1
@@ -384,20 +384,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:11 GMT
+                - Tue, 07 Jul 2026 05:40:17 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -405,10 +405,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 35e7cebc-459f-424f-7372-c223788ce396
+                - 91ebb51f-deb4-4e3a-4a9f-177b8452381f
         status: 200 OK
         code: 200
-        duration: 244.276542ms
+        duration: 253.091959ms
     - id: 8
       request:
         proto: HTTP/1.1
@@ -427,7 +427,7 @@ interactions:
                 - '*/*'
             Authorization:
                 - redacted
-        url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/9f7390c8-f201-4b2d-b751-04c0a63c2671/channels/ABAPCloud/37
+        url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/9f7390c8-f201-4b2d-b751-04c0a63c2671/channels/ABAPCloud/20
         method: GET
       response:
         proto: HTTP/1.1
@@ -435,20 +435,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 592
+        content_length: 612
         uncompressed: false
-        body: '{"abapCloudTenantHost":"REDACTED_ABAP_CLOUD_TENANT_HOST","instanceNumber":20,"id":37,"type":"ABAPCloud","port":3320,"enabled":false,"connections":1,"comment":"Created","_links":{"self":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"}}}'
+        body: '{"abapCloudTenantHost":"REDACTED_ABAP_CLOUD_TENANT_HOST","instanceNumber":20,"id":20,"type":"ABAPCloud","port":3320,"enabled":false,"connections":1,"comment":"Created","_links":{"self":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"}}}'
         headers:
             Cache-Control:
                 - no-store
             Content-Length:
-                - "592"
+                - "612"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:11 GMT
+                - Tue, 07 Jul 2026 05:40:17 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -456,10 +456,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 5403dbcc-c818-4e54-4015-485c9891fc8e
+                - 987c77fc-de5e-475b-7fac-37e80a3d8b1a
         status: 200 OK
         code: 200
-        duration: 243.131125ms
+        duration: 254.366167ms
     - id: 9
       request:
         proto: HTTP/1.1
@@ -486,20 +486,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:12 GMT
+                - Tue, 07 Jul 2026 05:40:18 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -507,10 +507,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 8914c136-9ddf-490a-6d8c-24dc8628025a
+                - dc232e36-76e2-4903-4ec7-283cdbf2ece1
         status: 200 OK
         code: 200
-        duration: 241.614792ms
+        duration: 253.781125ms
     - id: 10
       request:
         proto: HTTP/1.1
@@ -529,7 +529,7 @@ interactions:
                 - '*/*'
             Authorization:
                 - redacted
-        url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/9f7390c8-f201-4b2d-b751-04c0a63c2671/channels/ABAPCloud/37
+        url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/9f7390c8-f201-4b2d-b751-04c0a63c2671/channels/ABAPCloud/20
         method: GET
       response:
         proto: HTTP/1.1
@@ -537,20 +537,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 592
+        content_length: 612
         uncompressed: false
-        body: '{"abapCloudTenantHost":"REDACTED_ABAP_CLOUD_TENANT_HOST","instanceNumber":20,"id":37,"type":"ABAPCloud","port":3320,"enabled":false,"connections":1,"comment":"Created","_links":{"self":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"}}}'
+        body: '{"abapCloudTenantHost":"REDACTED_ABAP_CLOUD_TENANT_HOST","instanceNumber":20,"id":20,"type":"ABAPCloud","port":3320,"enabled":false,"connections":1,"comment":"Created","_links":{"self":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"}}}'
         headers:
             Cache-Control:
                 - no-store
             Content-Length:
-                - "592"
+                - "612"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:12 GMT
+                - Tue, 07 Jul 2026 05:40:18 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -558,10 +558,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 3442e679-a435-480a-6136-adf848f02fec
+                - 45d20e50-c924-4f0e-7165-ff4ade263cda
         status: 200 OK
         code: 200
-        duration: 246.590125ms
+        duration: 254.545208ms
     - id: 11
       request:
         proto: HTTP/1.1
@@ -588,20 +588,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:12 GMT
+                - Tue, 07 Jul 2026 05:40:18 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -609,10 +609,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - a00281a4-81eb-407e-4f55-fa18fa4ca173
+                - 1f508beb-0a15-4a85-41dc-7604d4c70b97
         status: 200 OK
         code: 200
-        duration: 247.096375ms
+        duration: 252.945376ms
     - id: 12
       request:
         proto: HTTP/1.1
@@ -631,7 +631,7 @@ interactions:
                 - '*/*'
             Authorization:
                 - redacted
-        url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/9f7390c8-f201-4b2d-b751-04c0a63c2671/channels/ABAPCloud/37
+        url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/9f7390c8-f201-4b2d-b751-04c0a63c2671/channels/ABAPCloud/20
         method: GET
       response:
         proto: HTTP/1.1
@@ -639,20 +639,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 592
+        content_length: 612
         uncompressed: false
-        body: '{"abapCloudTenantHost":"REDACTED_ABAP_CLOUD_TENANT_HOST","instanceNumber":20,"id":37,"type":"ABAPCloud","port":3320,"enabled":false,"connections":1,"comment":"Created","_links":{"self":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"}}}'
+        body: '{"abapCloudTenantHost":"REDACTED_ABAP_CLOUD_TENANT_HOST","instanceNumber":20,"id":20,"type":"ABAPCloud","port":3320,"enabled":false,"connections":1,"comment":"Created","_links":{"self":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"}}}'
         headers:
             Cache-Control:
                 - no-store
             Content-Length:
-                - "592"
+                - "612"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:13 GMT
+                - Tue, 07 Jul 2026 05:40:19 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -660,10 +660,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 2b506e1d-f094-4d58-53c1-91a4a0def438
+                - 9cc677df-eb64-4f34-7a74-08ead551bb82
         status: 200 OK
         code: 200
-        duration: 312.532375ms
+        duration: 253.268625ms
     - id: 13
       request:
         proto: HTTP/1.1
@@ -690,20 +690,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:13 GMT
+                - Tue, 07 Jul 2026 05:40:19 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -711,10 +711,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - e2c8acc7-2cad-4334-4695-6052de51d0fa
+                - 42c5a2c1-e087-4ad8-6917-0dbdd848d369
         status: 200 OK
         code: 200
-        duration: 290.091292ms
+        duration: 251.164125ms
     - id: 14
       request:
         proto: HTTP/1.1
@@ -741,20 +741,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:13 GMT
+                - Tue, 07 Jul 2026 05:40:19 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -762,10 +762,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 6024428a-849a-4259-7c75-9718d832bb19
+                - 2a5117ee-4d98-4fc3-781b-b888cbffb41d
         status: 200 OK
         code: 200
-        duration: 259.943292ms
+        duration: 251.960584ms
     - id: 15
       request:
         proto: HTTP/1.1
@@ -792,20 +792,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:14 GMT
+                - Tue, 07 Jul 2026 05:40:20 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -813,10 +813,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 3ca532bc-3905-4cbd-5abd-95f693667a1e
+                - 1a036bda-5733-4aa5-4e44-2e7cde602b75
         status: 200 OK
         code: 200
-        duration: 245.977334ms
+        duration: 255.893333ms
     - id: 16
       request:
         proto: HTTP/1.1
@@ -843,20 +843,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:14 GMT
+                - Tue, 07 Jul 2026 05:40:20 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -864,10 +864,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - cd02d77b-55d8-47a3-499c-ff7695156286
+                - a15f64c2-4096-47a6-7057-a09700cc0395
         status: 200 OK
         code: 200
-        duration: 248.567708ms
+        duration: 253.030167ms
     - id: 17
       request:
         proto: HTTP/1.1
@@ -894,20 +894,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:14 GMT
+                - Tue, 07 Jul 2026 05:40:20 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -915,10 +915,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - b01b4ddb-d6ac-470d-71f3-bd0640b096e0
+                - 70d249ff-db05-4048-40a9-04c904bb774c
         status: 200 OK
         code: 200
-        duration: 241.432501ms
+        duration: 255.962042ms
     - id: 18
       request:
         proto: HTTP/1.1
@@ -945,20 +945,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Tue, 16 Jun 2026 06:38:15 GMT
+                - Tue, 07 Jul 2026 05:40:20 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -966,10 +966,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - dfbd406a-8dc3-4081-7ff8-5dedb2b9ec1d
+                - 998e1d0d-bba8-464e-4744-54d19c3fdf47
         status: 200 OK
         code: 200
-        duration: 246.95475ms
+        duration: 255.12475ms
     - id: 19
       request:
         proto: HTTP/1.1
@@ -988,7 +988,7 @@ interactions:
                 - '*/*'
             Authorization:
                 - redacted
-        url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/9f7390c8-f201-4b2d-b751-04c0a63c2671/channels/ABAPCloud/37
+        url: https://redacted.instance.url/api/v1/configuration/subaccounts/cf.eu12.hana.ondemand.com/9f7390c8-f201-4b2d-b751-04c0a63c2671/channels/ABAPCloud/20
         method: DELETE
       response:
         proto: HTTP/1.1
@@ -1003,9 +1003,9 @@ interactions:
             Cache-Control:
                 - no-store
             Date:
-                - Tue, 16 Jun 2026 06:38:15 GMT
+                - Tue, 07 Jul 2026 05:40:21 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1013,7 +1013,7 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 3fb0c0b0-0f01-43cb-7162-bb920950070a
+                - 7e2d9641-f685-42e8-6bae-b3bb479630b7
         status: 204 No Content
         code: 204
-        duration: 357.741458ms
+        duration: 256.409167ms

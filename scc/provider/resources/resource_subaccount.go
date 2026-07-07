@@ -439,8 +439,6 @@ func (r *SubaccountResource) Read(ctx context.Context, req resource.ReadRequest,
 
 	responseModel.CloudUser = state.CloudUser
 	responseModel.CloudPassword = state.CloudPassword
-	responseModel.AutoCertificateRenewal = state.AutoCertificateRenewal
-	responseModel.IsManaged = state.IsManaged
 
 	if state.AutoRenewBeforeDays.IsNull() {
 		responseModel.AutoRenewBeforeDays = types.Int64Value(14)

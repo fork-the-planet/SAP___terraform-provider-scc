@@ -27,20 +27,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:20:52 GMT
+                - Tue, 07 Jul 2026 05:44:27 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -48,10 +48,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 51d8ed64-7369-40ba-574f-59ba371cdb54
+                - b466df58-0a04-4320-4677-27a6e97b1cd4
         status: 200 OK
         code: 200
-        duration: 790.190041ms
+        duration: 943.10375ms
     - id: 1
       request:
         proto: HTTP/1.1
@@ -78,20 +78,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:20:53 GMT
+                - Tue, 07 Jul 2026 05:44:28 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -99,10 +99,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - a8afaed9-4a2f-441b-70c9-cf212d506c4c
+                - d4cf2487-344b-411c-55e9-64648e32bb26
         status: 200 OK
         code: 200
-        duration: 263.770042ms
+        duration: 258.266917ms
     - id: 2
       request:
         proto: HTTP/1.1
@@ -134,18 +134,18 @@ interactions:
         trailer: {}
         content_length: -1
         uncompressed: true
-        body: '{"description":"Testing tunnel connected","displayName":"cc-subaccount","tunnel":{"state":"Connected","connectedSinceTimeStamp":1771845658025,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1803381656000,"notBeforeTimeStamp":1771842056000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
+        body: '{"description":"Testing tunnel connected","displayName":"cc-subaccount","autoCertRenewal":false,"tunnel":{"state":"Connected","connectedSinceTimeStamp":1783403071642,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1814939070000,"notBeforeTimeStamp":1783399470000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"isManaged":false,"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
         headers:
             Cache-Control:
                 - no-store
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:20:58 GMT
+                - Tue, 07 Jul 2026 05:44:31 GMT
             Location:
                 - redacted
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -155,10 +155,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 674b9c98-45d3-48e6-6bdc-9d5525450001
+                - 5f7b42ae-340c-4ac5-7ced-c79ace73d379
         status: 201 Created
         code: 201
-        duration: 4.952814044s
+        duration: 3.661280543s
     - id: 3
       request:
         proto: HTTP/1.1
@@ -192,9 +192,9 @@ interactions:
             Cache-Control:
                 - no-store
             Date:
-                - Mon, 23 Feb 2026 11:20:58 GMT
+                - Tue, 07 Jul 2026 05:44:32 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -202,10 +202,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 98b8db5e-84ea-4e9e-66f9-bd32049b0c94
+                - 768bfc71-d317-409c-55bd-69f466f8cfb3
         status: 204 No Content
         code: 204
-        duration: 515.20425ms
+        duration: 715.589792ms
     - id: 4
       request:
         proto: HTTP/1.1
@@ -232,20 +232,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:20:59 GMT
+                - Tue, 07 Jul 2026 05:44:32 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -253,10 +253,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 772302ed-ef64-4ec1-7083-678c41e47e00
+                - 0324b959-b9eb-4e4b-55d2-96e051953fa9
         status: 200 OK
         code: 200
-        duration: 258.116208ms
+        duration: 317.974417ms
     - id: 5
       request:
         proto: HTTP/1.1
@@ -283,20 +283,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:20:59 GMT
+                - Tue, 07 Jul 2026 05:44:33 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -304,10 +304,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 018e16fe-d9e6-4114-75ab-991b5bc9963a
+                - 2044825d-954b-47dc-47fb-4b0765e6d553
         status: 200 OK
         code: 200
-        duration: 254.976583ms
+        duration: 330.229ms
     - id: 6
       request:
         proto: HTTP/1.1
@@ -337,16 +337,16 @@ interactions:
         trailer: {}
         content_length: -1
         uncompressed: true
-        body: '{"description":"Testing tunnel connected","displayName":"cc-subaccount","tunnel":{"state":"Connected","connectedSinceTimeStamp":1771845658025,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1803381656000,"notBeforeTimeStamp":1771842056000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
+        body: '{"description":"Testing tunnel connected","displayName":"cc-subaccount","autoCertRenewal":false,"tunnel":{"state":"Connected","connectedSinceTimeStamp":1783403071642,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1814939070000,"notBeforeTimeStamp":1783399470000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"isManaged":false,"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
         headers:
             Cache-Control:
                 - no-store
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:20:59 GMT
+                - Tue, 07 Jul 2026 05:44:33 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -356,10 +356,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 1d33c71c-8c5f-4342-6d4e-01b7a87630ee
+                - 6c381f70-ab6b-4327-54e9-29413e05fef1
         status: 200 OK
         code: 200
-        duration: 295.712167ms
+        duration: 262.643125ms
     - id: 7
       request:
         proto: HTTP/1.1
@@ -393,9 +393,9 @@ interactions:
             Cache-Control:
                 - no-store
             Date:
-                - Mon, 23 Feb 2026 11:21:00 GMT
+                - Tue, 07 Jul 2026 05:44:34 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -403,10 +403,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 94e783ca-78e2-4225-7ecf-f658cb253520
+                - cdd890f7-ea39-44a1-6944-44e3aa8caee0
         status: 204 No Content
         code: 204
-        duration: 519.765375ms
+        duration: 537.524375ms
     - id: 8
       request:
         proto: HTTP/1.1
@@ -433,20 +433,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:00 GMT
+                - Tue, 07 Jul 2026 05:44:34 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -454,10 +454,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 1970d00e-ebc9-4b22-4b05-bab803823584
+                - 37ed0a0e-b377-4ac4-7135-86b3be71f6d4
         status: 200 OK
         code: 200
-        duration: 275.884084ms
+        duration: 257.900459ms
     - id: 9
       request:
         proto: HTTP/1.1
@@ -487,16 +487,16 @@ interactions:
         trailer: {}
         content_length: -1
         uncompressed: true
-        body: '{"description":"Testing tunnel connected","displayName":"cc-subaccount","tunnel":{"state":"Connected","connectedSinceTimeStamp":1771845658025,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1803381656000,"notBeforeTimeStamp":1771842056000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
+        body: '{"description":"Testing tunnel connected","displayName":"cc-subaccount","autoCertRenewal":false,"tunnel":{"state":"Connected","connectedSinceTimeStamp":1783403071642,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1814939070000,"notBeforeTimeStamp":1783399470000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"isManaged":false,"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
         headers:
             Cache-Control:
                 - no-store
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:00 GMT
+                - Tue, 07 Jul 2026 05:44:34 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -506,10 +506,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 2b2339b7-59c0-485e-57ea-efae637b31a5
+                - 54867539-976a-441f-436e-1cc334a74f8c
         status: 200 OK
         code: 200
-        duration: 301.140583ms
+        duration: 291.905084ms
     - id: 10
       request:
         proto: HTTP/1.1
@@ -543,9 +543,9 @@ interactions:
             Cache-Control:
                 - no-store
             Date:
-                - Mon, 23 Feb 2026 11:21:01 GMT
+                - Tue, 07 Jul 2026 05:44:35 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -553,10 +553,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 91447b98-156e-4ff5-4ad1-c37a62b88208
+                - 845bd591-8669-421e-76cc-79aac8b6cbd8
         status: 204 No Content
         code: 204
-        duration: 492.084084ms
+        duration: 553.963792ms
     - id: 11
       request:
         proto: HTTP/1.1
@@ -583,20 +583,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:01 GMT
+                - Tue, 07 Jul 2026 05:44:35 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -604,10 +604,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - a7bf63f9-da02-47ee-4d57-fe6c4afe5faf
+                - 2cab0c97-0b58-4639-51ca-1ddf97e4bd93
         status: 200 OK
         code: 200
-        duration: 265.506875ms
+        duration: 257.245167ms
     - id: 12
       request:
         proto: HTTP/1.1
@@ -639,16 +639,16 @@ interactions:
         trailer: {}
         content_length: -1
         uncompressed: true
-        body: '{"description":"Testing tunnel disconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","tunnel":{"state":"Connected","connectedSinceTimeStamp":1771845658025,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1803381656000,"notBeforeTimeStamp":1771842056000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
+        body: '{"description":"Testing tunnel disconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","autoCertRenewal":false,"tunnel":{"state":"Connected","connectedSinceTimeStamp":1783403071642,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1814939070000,"notBeforeTimeStamp":1783399470000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"isManaged":false,"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
         headers:
             Cache-Control:
                 - no-store
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:01 GMT
+                - Tue, 07 Jul 2026 05:44:35 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -658,10 +658,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - ff10c7cd-2f7a-4a39-5101-f2cb8d9fb472
+                - b1ad00b9-c419-43bd-71b9-f2bfd24abf00
         status: 200 OK
         code: 200
-        duration: 376.347541ms
+        duration: 334.170708ms
     - id: 13
       request:
         proto: HTTP/1.1
@@ -697,9 +697,9 @@ interactions:
             Cache-Control:
                 - no-store
             Date:
-                - Mon, 23 Feb 2026 11:21:02 GMT
+                - Tue, 07 Jul 2026 05:44:36 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -707,10 +707,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - b5c15bef-152f-4e4d-64b0-496ddef67d9a
+                - 92e2605b-5f49-4a4d-4c57-7a9b2550287e
         status: 204 No Content
         code: 204
-        duration: 347.959167ms
+        duration: 261.065458ms
     - id: 14
       request:
         proto: HTTP/1.1
@@ -740,16 +740,16 @@ interactions:
         trailer: {}
         content_length: -1
         uncompressed: true
-        body: '{"description":"Testing tunnel disconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","tunnel":{"state":"Disconnected","connectedSinceTimeStamp":0,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1803381656000,"notBeforeTimeStamp":1771842056000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
+        body: '{"description":"Testing tunnel disconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","autoCertRenewal":false,"tunnel":{"state":"Disconnected","connectedSinceTimeStamp":0,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1814939070000,"notBeforeTimeStamp":1783399470000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"isManaged":false,"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
         headers:
             Cache-Control:
                 - no-store
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:02 GMT
+                - Tue, 07 Jul 2026 05:44:36 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -759,10 +759,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 825dc100-67fe-4941-7f65-a8fa0baf2206
+                - e1a180c1-2e89-4c61-6341-b6a1a5a8da20
         status: 200 OK
         code: 200
-        duration: 272.601583ms
+        duration: 263.185834ms
     - id: 15
       request:
         proto: HTTP/1.1
@@ -789,20 +789,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:02 GMT
+                - Tue, 07 Jul 2026 05:44:36 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -810,10 +810,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 7493ecbf-b186-4d09-660f-82797665495b
+                - 822c6ecf-10dd-4ada-7599-080e3ac1cd84
         status: 200 OK
         code: 200
-        duration: 260.131834ms
+        duration: 258.549167ms
     - id: 16
       request:
         proto: HTTP/1.1
@@ -840,20 +840,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:03 GMT
+                - Tue, 07 Jul 2026 05:44:37 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -861,10 +861,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 14e85151-9c56-4150-446f-0a07b475fa39
+                - 92a1a70b-a08e-41ff-4593-3d1095949843
         status: 200 OK
         code: 200
-        duration: 263.693ms
+        duration: 258.119917ms
     - id: 17
       request:
         proto: HTTP/1.1
@@ -894,16 +894,16 @@ interactions:
         trailer: {}
         content_length: -1
         uncompressed: true
-        body: '{"description":"Testing tunnel disconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","tunnel":{"state":"Disconnected","connectedSinceTimeStamp":0,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1803381656000,"notBeforeTimeStamp":1771842056000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
+        body: '{"description":"Testing tunnel disconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","autoCertRenewal":false,"tunnel":{"state":"Disconnected","connectedSinceTimeStamp":0,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1814939070000,"notBeforeTimeStamp":1783399470000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"isManaged":false,"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
         headers:
             Cache-Control:
                 - no-store
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:03 GMT
+                - Tue, 07 Jul 2026 05:44:37 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -913,10 +913,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 3cd0e1f6-a6cf-4971-4872-ae02a0b77c2c
+                - b49274f7-9f57-4885-6b9c-fac874396bf3
         status: 200 OK
         code: 200
-        duration: 294.333084ms
+        duration: 263.845084ms
     - id: 18
       request:
         proto: HTTP/1.1
@@ -943,20 +943,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:03 GMT
+                - Tue, 07 Jul 2026 05:44:37 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -964,10 +964,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - b48fc15c-af85-445f-507d-606407309ee4
+                - f05550dd-8268-4edc-6e8f-8657f81d8031
         status: 200 OK
         code: 200
-        duration: 261.321625ms
+        duration: 256.5985ms
     - id: 19
       request:
         proto: HTTP/1.1
@@ -997,16 +997,16 @@ interactions:
         trailer: {}
         content_length: -1
         uncompressed: true
-        body: '{"description":"Testing tunnel disconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","tunnel":{"state":"Disconnected","connectedSinceTimeStamp":0,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1803381656000,"notBeforeTimeStamp":1771842056000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
+        body: '{"description":"Testing tunnel disconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","autoCertRenewal":false,"tunnel":{"state":"Disconnected","connectedSinceTimeStamp":0,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1814939070000,"notBeforeTimeStamp":1783399470000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"isManaged":false,"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
         headers:
             Cache-Control:
                 - no-store
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:04 GMT
+                - Tue, 07 Jul 2026 05:44:37 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1016,10 +1016,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 2e3a5e11-ec78-4b81-44e1-e56cf7103d19
+                - d4d3550e-28f9-4a42-555d-0c6f25753f93
         status: 200 OK
         code: 200
-        duration: 298.670375ms
+        duration: 261.089ms
     - id: 20
       request:
         proto: HTTP/1.1
@@ -1046,20 +1046,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:04 GMT
+                - Tue, 07 Jul 2026 05:44:38 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1067,10 +1067,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - e3baad14-5549-4faa-48c3-1450a01b8229
+                - 6594233c-0e9f-47df-7aaf-e17f710fac66
         status: 200 OK
         code: 200
-        duration: 317.009292ms
+        duration: 256.2865ms
     - id: 21
       request:
         proto: HTTP/1.1
@@ -1102,16 +1102,16 @@ interactions:
         trailer: {}
         content_length: -1
         uncompressed: true
-        body: '{"description":"Testing tunnel reconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","tunnel":{"state":"Disconnected","connectedSinceTimeStamp":0,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1803381656000,"notBeforeTimeStamp":1771842056000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
+        body: '{"description":"Testing tunnel reconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","autoCertRenewal":false,"tunnel":{"state":"Disconnected","connectedSinceTimeStamp":0,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1814939070000,"notBeforeTimeStamp":1783399470000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"isManaged":false,"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
         headers:
             Cache-Control:
                 - no-store
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:04 GMT
+                - Tue, 07 Jul 2026 05:44:38 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1121,10 +1121,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 4774cbf2-f57e-40a4-7c07-3804c53884a1
+                - 145e85a2-806a-48e5-7242-c03f75eb5741
         status: 200 OK
         code: 200
-        duration: 378.273125ms
+        duration: 261.387833ms
     - id: 22
       request:
         proto: HTTP/1.1
@@ -1160,9 +1160,9 @@ interactions:
             Cache-Control:
                 - no-store
             Date:
-                - Mon, 23 Feb 2026 11:21:05 GMT
+                - Tue, 07 Jul 2026 05:44:38 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1170,10 +1170,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - a2526fa3-a7e6-4474-61d7-4ed68b686eb0
+                - 4d0ac4cd-f262-4882-6957-15cf3b484e51
         status: 204 No Content
         code: 204
-        duration: 398.41375ms
+        duration: 310.547041ms
     - id: 23
       request:
         proto: HTTP/1.1
@@ -1203,16 +1203,16 @@ interactions:
         trailer: {}
         content_length: -1
         uncompressed: true
-        body: '{"description":"Testing tunnel reconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","tunnel":{"state":"Connected","connectedSinceTimeStamp":1771845665328,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1803381656000,"notBeforeTimeStamp":1771842056000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
+        body: '{"description":"Testing tunnel reconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","autoCertRenewal":false,"tunnel":{"state":"Connected","connectedSinceTimeStamp":1783403078900,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1814939070000,"notBeforeTimeStamp":1783399470000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"isManaged":false,"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
         headers:
             Cache-Control:
                 - no-store
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:05 GMT
+                - Tue, 07 Jul 2026 05:44:39 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1222,10 +1222,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 3dba4186-c884-4667-53b4-a2965179c4a2
+                - 581fb043-f8d3-4a40-6279-e1e21d8bd209
         status: 200 OK
         code: 200
-        duration: 271.216917ms
+        duration: 273.548917ms
     - id: 24
       request:
         proto: HTTP/1.1
@@ -1259,9 +1259,9 @@ interactions:
             Cache-Control:
                 - no-store
             Date:
-                - Mon, 23 Feb 2026 11:21:06 GMT
+                - Tue, 07 Jul 2026 05:44:39 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1269,10 +1269,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 9205d543-ba9f-4d8b-415e-7f60072c1429
+                - e7cf1bfd-182f-425b-56a0-477316e266ec
         status: 204 No Content
         code: 204
-        duration: 492.646584ms
+        duration: 680.561376ms
     - id: 25
       request:
         proto: HTTP/1.1
@@ -1299,20 +1299,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:06 GMT
+                - Tue, 07 Jul 2026 05:44:40 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1320,10 +1320,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - c7849568-2875-4605-5f25-f91d9970176e
+                - 96623793-6e7e-434d-66bc-c99e3ae2ed10
         status: 200 OK
         code: 200
-        duration: 259.914875ms
+        duration: 258.601541ms
     - id: 26
       request:
         proto: HTTP/1.1
@@ -1350,20 +1350,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:06 GMT
+                - Tue, 07 Jul 2026 05:44:40 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1371,10 +1371,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 1f5f95ee-86ea-42ce-6290-153a984d855e
+                - 8de8a592-d74f-4d29-7024-a702e5291999
         status: 200 OK
         code: 200
-        duration: 259.237959ms
+        duration: 327.270458ms
     - id: 27
       request:
         proto: HTTP/1.1
@@ -1404,16 +1404,16 @@ interactions:
         trailer: {}
         content_length: -1
         uncompressed: true
-        body: '{"description":"Testing tunnel reconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","tunnel":{"state":"Connected","connectedSinceTimeStamp":1771845665328,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1803381656000,"notBeforeTimeStamp":1771842056000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
+        body: '{"description":"Testing tunnel reconnected","displayName":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","autoCertRenewal":false,"tunnel":{"state":"Connected","connectedSinceTimeStamp":1783403078900,"connections":0,"applicationConnections":[],"serviceChannels":[],"subaccountCertificate":{"notAfterTimeStamp":1814939070000,"notBeforeTimeStamp":1783399470000,"subjectDN": "CN=redacted,L=redacted,OU=redacted,OU=redacted,O=redacted,C=redacted","issuer": "CN=redacted,OU=redacted,O=redacted,L=redacted,C=redacted","serialNumber": "aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa:aa"},"user":"cloud-user@example.com"},"isManaged":false,"_links":{"ABAPCloud-channels":{"href": "https://redacted.url/path"},"HANA-channels":{"href": "https://redacted.url/path"},"systemMappings":{"href": "https://redacted.url/path"},"self":{"href": "https://redacted.url/path"},"K8S-channels":{"href": "https://redacted.url/path"},"validity":{"href": "https://redacted.url/path"},"state":{"href": "https://redacted.url/path"},"VirtualMachine-channels":{"href": "https://redacted.url/path"},"domainMappings":{"href": "https://redacted.url/path"}},"regionHost":"cf.eu12.hana.ondemand.com","subaccount":"b1799d1c-ce91-4cd4-8b6e-dc8f4eaf0ad9","locationID":""}'
         headers:
             Cache-Control:
                 - no-store
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:07 GMT
+                - Tue, 07 Jul 2026 05:44:40 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1423,10 +1423,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 10ebe8e6-122f-4b0f-754b-86038d94c2d9
+                - 9afcf435-0812-416f-6eb3-e42354455fc2
         status: 200 OK
         code: 200
-        duration: 292.900792ms
+        duration: 260.845917ms
     - id: 28
       request:
         proto: HTTP/1.1
@@ -1460,9 +1460,9 @@ interactions:
             Cache-Control:
                 - no-store
             Date:
-                - Mon, 23 Feb 2026 11:21:07 GMT
+                - Tue, 07 Jul 2026 05:44:41 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1470,10 +1470,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 5b24d311-af2e-4c56-4b3c-aaf0582444f5
+                - 51cca6d0-afa9-4041-7b92-49332087ebb5
         status: 204 No Content
         code: 204
-        duration: 481.146417ms
+        duration: 652.169334ms
     - id: 29
       request:
         proto: HTTP/1.1
@@ -1500,20 +1500,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:07 GMT
+                - Tue, 07 Jul 2026 05:44:41 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1521,10 +1521,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - d715b0bf-8e8e-48b6-6e07-6bc2553ce8ee
+                - f3e49ef7-de2e-44e9-6049-985f7c9243ce
         status: 200 OK
         code: 200
-        duration: 262.219375ms
+        duration: 256.987376ms
     - id: 30
       request:
         proto: HTTP/1.1
@@ -1551,20 +1551,20 @@ interactions:
         proto_minor: 1
         transfer_encoding: []
         trailer: {}
-        content_length: 20
+        content_length: 22
         uncompressed: false
-        body: '{"version":"2.18.2"}'
+        body: '{"version":"2.19.0.2"}'
         headers:
             Cache-Control:
                 - max-age=3600
             Content-Length:
-                - "20"
+                - "22"
             Content-Type:
                 - application/json
             Date:
-                - Mon, 23 Feb 2026 11:21:08 GMT
+                - Tue, 07 Jul 2026 05:44:42 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1572,10 +1572,10 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 6d96b500-920e-4b89-6526-2b6605924463
+                - ad72bcca-a575-4512-6987-1cafde7762f4
         status: 200 OK
         code: 200
-        duration: 271.950125ms
+        duration: 354.549375ms
     - id: 31
       request:
         proto: HTTP/1.1
@@ -1609,9 +1609,9 @@ interactions:
             Cache-Control:
                 - no-store
             Date:
-                - Mon, 23 Feb 2026 11:21:08 GMT
+                - Tue, 07 Jul 2026 05:44:42 GMT
             Server:
-                - nginx/1.27.5
+                - nginx/1.29.7
             Set-Cookie:
                 - redacted
             Strict-Transport-Security:
@@ -1619,7 +1619,7 @@ interactions:
             X-Csrf-Token:
                 - redacted
             X-Vcap-Request-Id:
-                - 55b7b621-3843-407d-6065-ce9bbcfda479
+                - ff8286c9-0761-4421-7d64-604737295342
         status: 204 No Content
         code: 204
-        duration: 831.902917ms
+        duration: 303.165125ms
