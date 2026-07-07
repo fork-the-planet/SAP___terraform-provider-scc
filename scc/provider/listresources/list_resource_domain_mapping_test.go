@@ -31,7 +31,7 @@ func TestListDomainMapping(t *testing.T) {
 			Steps: []resource.TestStep{
 				{
 					Query:  true,
-					Config: tfutils.ProviderConfig(user) + listDomainMappingQueryConfig("scc_dm", "scc", "cf.eu12.hana.ondemand.com", "304492be-5f0f-4bb0-8f59-c982107bc878"),
+					Config: tfutils.ProviderConfig(user) + listDomainMappingQueryConfig("scc_dm", "scc", "cf.eu12.hana.ondemand.com", "1de4ab49-1b7b-47ca-89bb-0a4d9da1d057"),
 
 					QueryResultChecks: []querycheck.QueryResultCheck{
 						querycheck.ExpectLength("scc_domain_mapping.scc_dm", 1),
@@ -49,7 +49,7 @@ func TestListDomainMapping(t *testing.T) {
 				// Verify list results contain full resource schema data
 				{
 					Query:  true,
-					Config: tfutils.ProviderConfig(user) + listDomainMappingQueryConfigWithIncludeResource("scc_dm", "scc", "cf.eu12.hana.ondemand.com", "304492be-5f0f-4bb0-8f59-c982107bc878"),
+					Config: tfutils.ProviderConfig(user) + listDomainMappingQueryConfigWithIncludeResource("scc_dm", "scc", "cf.eu12.hana.ondemand.com", "1de4ab49-1b7b-47ca-89bb-0a4d9da1d057"),
 
 					QueryResultChecks: []querycheck.QueryResultCheck{
 						querycheck.ExpectLength("scc_domain_mapping.scc_dm", 1),
@@ -68,7 +68,7 @@ func TestListDomainMapping(t *testing.T) {
 							"scc_domain_mapping.scc_dm",
 							queryfilter.ByResourceIdentity(map[string]knownvalue.Check{
 								"region_host":     knownvalue.StringExact("cf.eu12.hana.ondemand.com"),
-								"subaccount":      knownvalue.StringExact("304492be-5f0f-4bb0-8f59-c982107bc878"),
+								"subaccount":      knownvalue.StringExact("1de4ab49-1b7b-47ca-89bb-0a4d9da1d057"),
 								"internal_domain": knownvalue.StringExact("testterraforminternaldomain"),
 							}),
 							[]querycheck.KnownValueCheck{

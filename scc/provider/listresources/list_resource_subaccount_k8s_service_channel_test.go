@@ -45,7 +45,7 @@ func TestListSubaccountK8SServiceChannel(t *testing.T) {
 							map[string]knownvalue.Check{
 								"region_host": knownvalue.StringExact(regionHost),
 								"subaccount":  knownvalue.StringRegexp(tfutils.RegexpValidUUID),
-								"id":          knownvalue.Int64Exact(4),
+								"id":          knownvalue.Int64Exact(2),
 							},
 						),
 					},
@@ -64,7 +64,7 @@ func TestListSubaccountK8SServiceChannel(t *testing.T) {
 							map[string]knownvalue.Check{
 								"region_host": knownvalue.StringExact(regionHost),
 								"subaccount":  knownvalue.StringRegexp(tfutils.RegexpValidUUID),
-								"id":          knownvalue.Int64Exact(4),
+								"id":          knownvalue.Int64Exact(2),
 							},
 						),
 
@@ -74,7 +74,7 @@ func TestListSubaccountK8SServiceChannel(t *testing.T) {
 							queryfilter.ByResourceIdentity(map[string]knownvalue.Check{
 								"region_host": knownvalue.StringExact(regionHost),
 								"subaccount":  knownvalue.StringExact(subaccount),
-								"id":          knownvalue.Int64Exact(4),
+								"id":          knownvalue.Int64Exact(2),
 							}),
 							[]querycheck.KnownValueCheck{
 								{
@@ -87,11 +87,11 @@ func TestListSubaccountK8SServiceChannel(t *testing.T) {
 								},
 								{
 									Path:       tfjsonpath.New("k8s_cluster_host"),
-									KnownValue: knownvalue.StringRegexp(regexp.MustCompile(`^(test_cluster_host|REDACTED_K8S_CLUSTER_HOST)$`)),
+									KnownValue: knownvalue.StringRegexp(regexp.MustCompile(`^(test_k8s_cluster_host|REDACTED_K8S_CLUSTER_HOST)$`)),
 								},
 								{
 									Path:       tfjsonpath.New("k8s_service_id"),
-									KnownValue: knownvalue.StringRegexp(regexp.MustCompile(`^test_service_id|REDACTED_K8S_SERVICE_ID$`)),
+									KnownValue: knownvalue.StringRegexp(regexp.MustCompile(`^(test_k8s_service_id|REDACTED_K8S_SERVICE_ID)$`)),
 								},
 								{
 									Path:       tfjsonpath.New("type"),
@@ -111,7 +111,7 @@ func TestListSubaccountK8SServiceChannel(t *testing.T) {
 								},
 								{
 									Path:       tfjsonpath.New("id"),
-									KnownValue: knownvalue.Int64Exact(4),
+									KnownValue: knownvalue.Int64Exact(2),
 								},
 								{
 									Path:       tfjsonpath.New("enabled"),
